@@ -1,0 +1,132 @@
+@mixin name {
+  font-size: 1.9rem;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: rgb(31, 25, 19);
+  font-weight: 500;
+  position: absolute;
+  top: 8px;
+}
+
+@mixin health {
+  font-size: 1.9rem;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: rgb(31, 25, 19);
+  font-weight: 500;
+  position: absolute;
+  top: 55px;
+}
+
+@mixin attack {
+  font-size: 1.9rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 269px;
+}
+
+@mixin special {
+  font-size: 1.9rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 429px;
+}
+
+@mixin remaininghealth {
+  font-size: 1.9rem;
+  color: rgb(31, 25, 19);
+  font-weight: 500;
+  position: absolute;
+  top: 55px;
+}
+
+@mixin damage {
+  font-size: 1.9rem;
+  color: rgb(31, 25, 19);
+  font-weight: 500;
+  position: absolute;
+  top: 241px;
+}
+
+@mixin choose {
+  font-size: 1.9rem;
+  color: rgb(31, 25, 19);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: 500;
+  position: absolute;
+  top: 269px;
+}
+
+.player1__name {
+  @include name;
+  left: 16px;
+}
+
+.player2__name {
+  @include name;
+  right: 100px;
+}
+
+.player1__health {
+  @include health;
+  left: 16px;
+}
+
+.player2__health {
+  @include health;
+  right: 105px;
+}
+
+.button__player1attack {
+  @include attack;
+  left: 13px;
+}
+
+.button__player2attack {
+  @include attack;
+  right: 93px;
+}
+
+.player1__special {
+  @include special;
+  left: 13px;
+}
+
+.player2__special {
+  @include special;
+  right: 89px;
+}
+
+.player1__remainingHealth {
+  @include remaininghealth;
+  left: 146px;
+}
+
+.player2__remainingHealth {
+  @include remaininghealth;
+  right: 46px;
+}
+
+.player1__damage {
+  @include damage;
+  left: 146px;
+}
+
+.player2__damage {
+  @include damage;
+  right: 236px;
+}
+
+.choosePlayer1__name {
+  @include choose;
+  left: 113px;
+}
+
+.choosePlayer2__name {
+  @include choose;
+  right: 133px;
+}

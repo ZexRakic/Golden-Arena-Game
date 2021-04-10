@@ -1,0 +1,49 @@
+@mixin players-style {
+  font-size: 1.3rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 380px;
+}
+
+.button__soldier {
+  @include players-style;
+  left: 63px;
+}
+
+.button__dragon {
+  @include players-style;
+  left: 203px;
+}
+
+.button__kingKong {
+  @include players-style;
+  left: 343px;
+}
+
+.button__titan {
+  @include players-style;
+  left: 503px;
+}
+
+.button__ghost {
+  @include players-style;
+  right: 53px;
+}
+
+.button__devil {
+  @include players-style;
+  right: 183px;
+}
+
+.button__spider {
+  @include players-style;
+  right: 305px;
+}
+
+.button__machine {
+  @include players-style;
+  right: 443px;
+}

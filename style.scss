@@ -1,0 +1,69 @@
+@import "./characters.scss";
+@import "./players.scss";
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-color: #7c5a2d; */
+  height: 100vh;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.main__background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.hover:hover {
+  background: rgba(36, 31, 1, 0.932);
+  color: rgba(156, 129, 54, 0.932);
+  border: 2px solid #a08a43;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.main__name {
+  position: absolute;
+  top: 133px;
+  left: 500px;
+  font-size: 4em;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  color: rgba(34, 30, 3, 0.932);
+  text-shadow: 1px 1px hsl(50, 73%, 63%), 2px 2px hsl(50, 50%, 40%),
+    3px 3px hsl(50, 50%, 35%), 4px 4px hsl(50, 79%, 45%),
+    5px 5px hsl(50, 50%, 33%), 6px 6px hsl(49, 49%, 15%),
+    7px 7px hsl(49, 68%, 24%), 8px 8px hsl(50, 44%, 57%),
+    9px 9px hsl(50, 93%, 59%), 10px 10px hsl(49, 57%, 26%),
+    10px 10px 30px rgba(90, 61, 15, 0.7);
+}
+
+.main__button {
+  font-size: 1.9rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 363px;
+  left: 720px;
+}
+
+.main__won {
+  position: absolute;
+  top: 53px;
+  left: 250px;
+  font-size: 4em;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  color: rgba(34, 30, 3, 0.932);
+  text-shadow: 1px 1px hsl(50, 73%, 63%), 2px 2px hsl(50, 50%, 40%),
+    3px 3px hsl(50, 50%, 35%), 4px 4px hsl(50, 79%, 45%),
+    7px 7px hsl(49, 68%, 24%), 8px 8px hsl(50, 44%, 57%),
+    9px 9px hsl(50, 93%, 59%), 10px 10px hsl(49, 57%, 26%),
+    10px 10px 30px rgba(90, 61, 15, 0.7);
+}

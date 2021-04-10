@@ -1,0 +1,88 @@
+.button__soldier {
+  font-size: 1.3rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 380px;
+  left: 63px;
+}
+
+.button__dragon {
+  font-size: 1.3rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 380px;
+  left: 203px;
+}
+
+.button__kingKong {
+  font-size: 1.3rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 380px;
+  left: 343px;
+}
+
+.button__titan {
+  font-size: 1.3rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 380px;
+  left: 503px;
+}
+
+.button__ghost {
+  font-size: 1.3rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 380px;
+  right: 53px;
+}
+
+.button__devil {
+  font-size: 1.3rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 380px;
+  right: 183px;
+}
+
+.button__spider {
+  font-size: 1.3rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 380px;
+  right: 305px;
+}
+
+.button__machine {
+  font-size: 1.3rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 380px;
+  right: 443px;
+}
+/*# sourceMappingURL=characters.css.map */

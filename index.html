@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <img
+        class="main__background"
+        src="../Images/background.png"
+        width="100%"
+        height="100%"
+        max-heigth="2000px"
+      />
+      <p class="main__name">Golden arenA</p>
+      <button class="main__button hover">Play Game</button>
+      <p class="main__won"></p>
+    </main>
+    <div class="player1 hidden">
+      <p class="player1__name">Player1</p>
+      <p class="player1__health">Health:</p>
+      <p class="player1__remainingHealth">?</p>
+      <button class="button__player1attack hover">Attack</button>
+      <p class="player1__damage"></p>
+      <button class="player1__special hover">Special</button>
+    </div>
+
+    <div class="player2Data hidden">
+      <p class="player2__name">Player2</p>
+      <p class="player2__health">Health:</p>
+      <p class="player2__remainingHealth">?</p>
+      <button class="button__player2attack hover">Attack</button>
+      <p class="player2__damage"></p>
+      <button class="player2__special hover">Special</button>
+    </div>
+
+    <div class="choosePlayer1 hidden">
+      <p class="choosePlayer1__name">Player1 pick your warrior!</p>
+      <button class="button__soldier hover">Soldier</button>
+      <img
+        src="/Images/soldier.jpg"
+        alt="soldier"
+        style="position: absolute; left: 68px; top: 450px"
+      />
+      <button class="button__dragon hover">Dragon</button>
+      <img
+        src="/Images/dragon.jpg"
+        alt="dragon"
+        style="position: absolute; left: 213px; top: 450px"
+      />
+      <button class="button__kingKong hover">KingKong</button>
+      <img
+        src="/Images/kingkong.jpg"
+        alt="kingkong"
+        style="position: absolute; left: 363px; top: 450px"
+      />
+      <button class="button__titan hover">Titan</button>
+      <img
+        src="/Images/titan.jpg"
+        alt="titan"
+        style="position: absolute; left: 503px; top: 450px"
+      />
+    </div>
+
+    <div class="picture1"></div>
+    <div class="picture2"></div>
+
+    <div class="choosePlayer2 hidden">
+      <p class="choosePlayer2__name">Player2 pick your warrior!</p>
+      <button class="button__ghost hover">Ghost</button>
+      <img
+        src="/Images/ghost.jpg"
+        alt="ghost"
+        style="position: absolute; right: 58px; top: 450px"
+      />
+      <button class="button__devil hover">Devil</button>
+      <img
+        src="/Images/devil.jpg"
+        alt="devil"
+        style="position: absolute; right: 183px; top: 450px"
+      />
+      <button class="button__spider hover">Spider</button>
+      <img
+        src="/Images/spider.jpg"
+        alt="spider"
+        style="position: absolute; right: 310px; top: 450px"
+      />
+      <button class="button__machine hover">Machine</button>
+      <img
+        src="/Images/machine.jpg"
+        alt="machine"
+        style="position: absolute; right: 460px; top: 450px"
+      />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

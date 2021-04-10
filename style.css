@@ -1,0 +1,286 @@
+.button__soldier {
+  font-size: 1.3rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 380px;
+  left: 63px;
+}
+
+.button__dragon {
+  font-size: 1.3rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 380px;
+  left: 203px;
+}
+
+.button__kingKong {
+  font-size: 1.3rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 380px;
+  left: 343px;
+}
+
+.button__titan {
+  font-size: 1.3rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 380px;
+  left: 503px;
+}
+
+.button__ghost {
+  font-size: 1.3rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 380px;
+  right: 53px;
+}
+
+.button__devil {
+  font-size: 1.3rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 380px;
+  right: 183px;
+}
+
+.button__spider {
+  font-size: 1.3rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 380px;
+  right: 305px;
+}
+
+.button__machine {
+  font-size: 1.3rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 380px;
+  right: 443px;
+}
+
+.player1__name {
+  font-size: 1.9rem;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #1f1913;
+  font-weight: 500;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.player2__name {
+  font-size: 1.9rem;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #1f1913;
+  font-weight: 500;
+  position: absolute;
+  top: 8px;
+  right: 100px;
+}
+
+.player1__health {
+  font-size: 1.9rem;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #1f1913;
+  font-weight: 500;
+  position: absolute;
+  top: 55px;
+  left: 16px;
+}
+
+.player2__health {
+  font-size: 1.9rem;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #1f1913;
+  font-weight: 500;
+  position: absolute;
+  top: 55px;
+  right: 105px;
+}
+
+.button__player1attack {
+  font-size: 1.9rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 269px;
+  left: 13px;
+}
+
+.button__player2attack {
+  font-size: 1.9rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 269px;
+  right: 93px;
+}
+
+.player1__special {
+  font-size: 1.9rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 429px;
+  left: 13px;
+}
+
+.player2__special {
+  font-size: 1.9rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 429px;
+  right: 89px;
+}
+
+.player1__remainingHealth {
+  font-size: 1.9rem;
+  color: #1f1913;
+  font-weight: 500;
+  position: absolute;
+  top: 55px;
+  left: 146px;
+}
+
+.player2__remainingHealth {
+  font-size: 1.9rem;
+  color: #1f1913;
+  font-weight: 500;
+  position: absolute;
+  top: 55px;
+  right: 46px;
+}
+
+.player1__damage {
+  font-size: 1.9rem;
+  color: #1f1913;
+  font-weight: 500;
+  position: absolute;
+  top: 241px;
+  left: 146px;
+}
+
+.player2__damage {
+  font-size: 1.9rem;
+  color: #1f1913;
+  font-weight: 500;
+  position: absolute;
+  top: 241px;
+  right: 236px;
+}
+
+.choosePlayer1__name {
+  font-size: 1.9rem;
+  color: #1f1913;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: 500;
+  position: absolute;
+  top: 269px;
+  left: 113px;
+}
+
+.choosePlayer2__name {
+  font-size: 1.9rem;
+  color: #1f1913;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: 500;
+  position: absolute;
+  top: 269px;
+  right: 133px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-color: #7c5a2d; */
+  height: 100vh;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.main__background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.hover:hover {
+  background: rgba(36, 31, 1, 0.932);
+  color: rgba(156, 129, 54, 0.932);
+  border: 2px solid #a08a43;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.main__name {
+  position: absolute;
+  top: 133px;
+  left: 500px;
+  font-size: 4em;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  color: rgba(34, 30, 3, 0.932);
+  text-shadow: 1px 1px #e6cf5c, 2px 2px #998833, 3px 3px #86772d, 4px 4px #cdaf18, 5px 5px #7e702a, 6px 6px #393214, 7px 7px #675814, 8px 8px #c2b261, 9px 9px #f8d735, 10px 10px #685a1d, 10px 10px 30px rgba(90, 61, 15, 0.7);
+}
+
+.main__button {
+  font-size: 1.9rem;
+  color: rgba(51, 44, 0, 0.932);
+  background-color: rgba(167, 135, 48, 0.932);
+  border: 2px solid #332f07;
+  font-weight: 500;
+  position: absolute;
+  top: 363px;
+  left: 720px;
+}
+
+.main__won {
+  position: absolute;
+  top: 53px;
+  left: 250px;
+  font-size: 4em;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  color: rgba(34, 30, 3, 0.932);
+  text-shadow: 1px 1px #e6cf5c, 2px 2px #998833, 3px 3px #86772d, 4px 4px #cdaf18, 7px 7px #675814, 8px 8px #c2b261, 9px 9px #f8d735, 10px 10px #685a1d, 10px 10px 30px rgba(90, 61, 15, 0.7);
+}
+/*# sourceMappingURL=style.css.map */
