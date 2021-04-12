@@ -6,11 +6,11 @@ const Warrior = function (name, health, damage) {
   this.damage = damage;
 };
 
-const Soldier = new Warrior("Soldier", 52, 7);
+const Soldier = new Warrior("Soldier", 45, 7);
 
 // special: granade, dealing 20 damage, only one use
 
-const Dragon = new Warrior("Dragon", 60, 4);
+const Dragon = new Warrior("Dragon", 50, 5);
 
 // special: = deal enemy damage * 2, only one use
 
@@ -18,7 +18,7 @@ const KingKong = new Warrior("KingKong", 25, 13);
 
 // special: full regeneneration of health, only one use
 
-const Titan = new Warrior("Titan", 45, 10);
+const Titan = new Warrior("Titan", 43, 10);
 
 // special: no special attack
 
@@ -30,11 +30,11 @@ const Devil = new Warrior("Devil", 40, 6);
 
 // special: fire, dealing random damage from 1 to 30, only one use
 
-const Spider = new Warrior("Spider", 55, 4);
+const Spider = new Warrior("Spider", 48, 5);
 
 // special: poison, half the enemy current health
 
-const Machine = new Warrior("Machine", 55, 5);
+const Machine = new Warrior("Machine", 46, 5);
 
 // special: having armor that half the enemy damage , every time he is attacked
 

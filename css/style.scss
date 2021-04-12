@@ -1,5 +1,5 @@
-@import "./css/characters.scss";
-@import "./css/players.scss";
+@import "./characters.scss";
+@import "./players.scss";
 
 body {
   font-family: "Poppins", sans-serif;
@@ -9,8 +9,16 @@ body {
   overflow: hidden;
 }
 
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .main__background {
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 0px;
   overflow: hidden;
@@ -27,9 +35,9 @@ body {
 }
 
 .main__name {
-  position: absolute;
-  top: 133px;
-  left: 500px;
+  position: relative;
+  // top: 133px;
+  // left: 500px;
   font-size: 4em;
   letter-spacing: 15px;
   text-transform: uppercase;
@@ -48,9 +56,9 @@ body {
   background-color: rgba(167, 135, 48, 0.932);
   border: 2px solid #332f07;
   font-weight: 500;
-  position: absolute;
-  top: 363px;
-  left: 720px;
+  position: relative;
+  // top: 363px;
+  // left: 720px;
 }
 
 .main__won {
