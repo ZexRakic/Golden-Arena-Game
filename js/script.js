@@ -73,7 +73,7 @@ const pickingPlayerOneCharacter = function (name) {
   document.querySelector(".player1__damage").textContent = player1.damage;
   document.querySelector(
     ".picture1"
-  ).innerHTML = `<img src="./Images/${player1.name.toLowerCase()}.jpg" alt="${player1.name.toLowerCase()}" style="position: absolute; left: 450px; top: 700px;"></img>;`;
+  ).innerHTML = `<img src="./Images/${player1.name.toLowerCase()}.png" alt="${player1.name.toLowerCase()}" style="position: absolute; left: 450px; top: 700px;"></img>;`;
 };
 
 const pickingPlayerTwoCharacter = function (name) {
@@ -91,7 +91,7 @@ const pickingPlayerTwoCharacter = function (name) {
   document.querySelector(".player2__damage").classList.add("hidden");
   document.querySelector(
     ".picture2"
-  ).innerHTML = `<img src="./Images/${player2.name.toLowerCase()}.jpg" alt="${player2.name.toLowerCase()}" style="position: absolute; right: 450px; top: 700px;"></img>;`;
+  ).innerHTML = `<img src="./Images/${player2.name.toLowerCase()}.png" alt="${player2.name.toLowerCase()}" style="position: absolute; right: 450px; top: 700px;"></img>;`;
 };
 
 const attackingPlayerOne = function () {
